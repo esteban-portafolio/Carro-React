@@ -1,0 +1,65 @@
+.navbar {
+  font-size: 25px;
+  background-color: #6ab9f1;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  padding: 0;
+}
+
+#span{
+    font-weight: 900;
+}
+
+#btn-carrito {
+  margin-right: 40px;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+#buscaInput {
+  border-color: rgb(75, 150, 0);
+  margin-left: 30px;
+}
+
+.nav-item {
+  padding: 15px;
+}
+
+.nav-link {
+  font-weight: 900;
+  text-decoration: underline;
+  color: black;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: rgb(250, 1, 1);
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 150%;
+  text-decoration: underline;
+}
+
+#content{
+    width: 100%;
+    height: 800px;
+    background-image: url(./img/foto-compreas.jpg);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 900;
+}
