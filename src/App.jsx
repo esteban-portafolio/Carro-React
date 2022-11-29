@@ -10,7 +10,10 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Content/>
+      <Content
+       imagen ='src/img/foto-compreas.jpg'
+       titulo = 'CONTENEDOR'
+      />
       <Footer/>
     </div>
   )

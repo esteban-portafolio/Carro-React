@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Content = () => {
+const Content = (props) => {
   return (
-    <div id='content'>Content</div>
+    <div id='content' style={{
+      backgroundImage: `url(${props.imagen})`
+    }}><h2 className='contTitulo'>{props.titulo}</h2>     
+
+    </div>
   )
 }
 
