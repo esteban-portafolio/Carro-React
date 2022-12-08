@@ -1,4 +1,5 @@
 import React from 'react'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
@@ -25,7 +26,7 @@ const Navbar = () => {
               <a className="nav-link" href="contacto.html">Contacto</a>
             </li> */}
           </ul>
-          <input value="search" className="form-control d-flex w-25 m-2" id="buscaInput" type="search"
+          <input defaultValue="search" className="form-control d-flex w-25 m-2" id="buscaInput" type="search"
             placeholder="Buscar" aria-label="Search"/>
         </div>
 

@@ -1,21 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Navbar from './components/NavBar/Navbar'
+import Content from './components/ItemListContainer/Content'
+import Footer from './components/Footer/Footer'
+import DetailContainer from './components/ItemDetailContainer/DetailContainer'
+
 import './App.css'
-import Navbar from './components/Navbar.jsx'
-import Content from './components/Content.jsx'
-import Footer from './components/Footer.jsx'
 
 function App() {
 
   return (
-    <div className="App">
-      <Navbar/>
-      <Content
-       imagen ='src/img/foto-compreas.jpg'
-       titulo = 'CONTENEDOR'
-      />
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Content />} />
+        <Route path='/detalle' element={<DetailContainer />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+    // <div className="App">
+
+    // </div>
   )
 }
 

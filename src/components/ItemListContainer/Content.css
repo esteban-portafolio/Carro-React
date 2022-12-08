@@ -1,0 +1,13 @@
+#content {
+    font-size: 25px;
+    display: flex;
+}
+
+#header{
+    font-weight: 700;
+}
+
+.container {
+    padding: 30px;
+    margin-bottom: 20px;
+}
